@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+   
+    width: 80%;height: 120vh;
+    position: relative;
+    overflow: hidden;
+}
+.btn_box button{
+    border: none;
+    outline: none;
+}
+.content{
+    text-align: center;
+transform: translateX(100%);
+transition:.5s ;
+}
+.contact i{
+    padding: 0px 10px;
+    color: rgba(209, 98, 25, 0.966);
+}
+.hero .btn_box button:hover i{
+    color: rgb(184, 60, 11) ;
+}
+
+#presonal{
+    transform: translateX(0%);
+}
